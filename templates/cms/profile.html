@@ -1,0 +1,39 @@
+{% extends 'cms/cms_base.html' %}
+
+{% block title %}
+    个人信息
+{% endblock %}
+
+{% block page_title %}
+    {{ self.title() }}
+{% endblock %}
+
+{% block main_content %}
+    <div class="card-body py-5">
+        <table class="table card-text">
+          <tbody>
+            <tr>
+              <th scope="row">用户名</th>
+              <td>{{Jacob}}</td>
+            </tr>
+            <tr>
+              <th scope="row">邮箱</th>
+              <td>Jacob</td>
+            </tr>
+            <tr>
+              <th scope="row">角色</th>
+              <td>Larry</td>
+            </tr>
+            <tr>
+              <th scope="row">权限</th>
+              <td>Larry</td>
+            </tr>
+
+            <tr>
+              <th scope="row">加入时间</th>
+              <td>Larry</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+{% endblock %}
